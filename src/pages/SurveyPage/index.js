@@ -13,21 +13,27 @@ function SurveyPage() {
       description: '내용1 입니다',
       type: 'text',
       required: false,
-      options: {},
+      options: {
+        placeholder: 'placeholder 입니다',
+      },
     },
     {
       title: '질문2 입니다',
       description: '내용2 입니다',
-      type: 'text',
+      type: 'textarea',
       required: false,
-      options: {},
+      options: {
+        placeholder: '',
+      },
     },
     {
       title: '질문3 입니다',
       description: '내용3 입니다',
-      type: 'text',
+      type: 'select',
       required: false,
-      options: {},
+      options: {
+        placeholder: '',
+      },
     },
   ];
 
