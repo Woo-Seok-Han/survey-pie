@@ -23,7 +23,7 @@ function SurveyPage() {
       type: 'textarea',
       required: false,
       options: {
-        placeholder: '',
+        placeholder: 'placeholder 2',
       },
     },
     {

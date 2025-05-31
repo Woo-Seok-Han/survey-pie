@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-function TextInput({ answer, setAnswer }) {
+function TextInput({ answer, setAnswer, options }) {
   return (
     <Input
       type="text"
       value={answer}
       onChange={(e) => setAnswer(e.target.value)}
+      placeholder={options.placeholder}
     ></Input>
   );
 }
